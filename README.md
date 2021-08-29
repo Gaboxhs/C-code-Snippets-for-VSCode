@@ -23,7 +23,7 @@
 | ifs | IF statement
 | elif | ELSE IF statement
 | elses | ELSE statement
-| switch | SWITCH statement
+| sw | SWITCH statement
 | forl | FOR loop
 | whilel / wh | WHILE loop
 | dowhile / dwh | DO-WHILE loop
