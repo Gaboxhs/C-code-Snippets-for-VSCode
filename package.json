@@ -1,0 +1,30 @@
+{
+	"name": "c-snippets-for-vscode",
+	"displayName": "C Snippets for VSCode",
+	"description": "Some C snippets for vscode",
+	"version": "0.0.1",
+	"publisher": "Gabox",
+	"engines": {
+		"vscode": "^1.59.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Gaboxhehe/C-code-Snippets-for-VSCode.git"
+	},
+	"contributes": {
+		"snippets": [
+			{
+				"language": "c",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "42cac7a9-309f-4365-8068-80bf00045bda",
+		"publisherDisplayName": "Gabox",
+		"publisherId": "46df5f58-a847-4bc4-9bde-07c5f6939977"
+	}
+}

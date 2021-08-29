@@ -1,0 +1,197 @@
+{
+
+    "SST": {
+		"prefix": "sst",
+		"body": [
+		
+			"#include <stdio.h>",
+			"\nint main(){",
+			"\n\n    return 0;",
+			"}"
+
+		],
+		
+		"description": "Starter template"
+																									
+	},
+
+	"SST-WITH-MORE-USEFUL-LIBS": {
+		"prefix": "sstl",
+		"body": [
+		
+			"#include <stdio.h>",
+			"#include <stdlib.h>",
+			"#include <string.h>",
+			
+			"\nint main(){",
+			"\n\n    return 0;",
+			"}"
+
+		],
+		
+		"description": "Starter template"
+																									
+	},
+
+	"OR":{
+		"prefix": "or",
+		"body": "||",
+
+		"description": "C 'or (||)' logical operator"
+	},
+
+	"AND":{
+		"prefix": "and",
+		"body": "&&",
+
+		"description": "C 'and (&&)' logical operator"
+	},
+
+	"NOT":{
+		"prefix": "not",
+		"body": "!",
+
+		"description": "C 'not (!)' logical operator"
+	},
+
+	"INT FUNCTION": {
+		"prefix": "intfn",
+		"body": [
+
+			"int myFunction(){",
+			"\n\n    return /*SOMETHING*/;",
+			"}"
+		],
+		
+		"description": "int function"
+	},
+
+	"FLOAT FUNCTION": {
+		"prefix": "flofn",
+		"body": [
+
+			"float myFunction(){",
+			"\n\n    return /*SOMETHING*/;",
+			"}"
+		],
+		
+		"description": "float function"
+	},
+
+	"VOID FUNCTION": {
+		"prefix": "voidfn",
+		"body": [
+
+			"void myFunction(void){",
+			"\n\n    /*CODE HERE*/",
+			"}"
+		],
+		
+		"description": "void function"
+	},
+
+	"IF STATEMENT": {
+		"prefix": "ifs",
+		"body": [
+
+			"if (/*CONDITION*/){",
+			"\n\n    /*CODE HERE*/",
+			"}"
+		],
+		
+		"description": "if statement"
+	},
+
+	"ELSE IF STATEMENT": {
+		"prefix": "elif",
+		"body": [
+
+			"else if (/*CONDITION*/){",
+			"\n\n    /*CODE HERE*/",
+			"}"
+		],
+		
+		"description": "else if statement"
+	},
+
+	"ELSE STATEMENT": {
+		"prefix": "elses",
+		"body": [
+
+			"else (/*CONDITION*/){",
+			"\n\n    /*CODE HERE*/",
+			"}"
+		],
+		
+		"description": "else statement"
+	},
+
+	"SWITCH STATEMENT": {
+		"prefix": "sw",
+		"body": [
+
+			"switch (/*value*/){",
+			"\n    case /*CONDITION*/:",
+			"    /*CODE HERE*/",
+			"    break;",
+			"\n    default:",
+			"    /*CODE HERE*/",
+			"    break",
+			"}"
+		],
+		
+		"description": "switch statement"
+	},
+
+	"FOR LOOP": {
+		"prefix": "forl",
+		"body": [
+
+			"for (int i = 0; i < 100; i++){",
+			"\n    /*CODE HERE*/",
+			"}"
+		],
+		
+		"description": "for loop"
+	},
+
+	"WHILE LOOP": {
+		"prefix": ["whilel", "wh"],
+		"body": [
+
+			"while (/*CONDITION*/){",
+			"\n    /*CODE HERE*/",
+			"}"
+		],
+		
+		"description": "while loop"
+	},
+
+	"DO-WHILE LOOP": {
+		"prefix": ["dowhile", "dwh"],
+		"body": [
+
+			"do{",
+			"\n    /*CODE HERE*/",
+			"\n} while (/*CONDITION*/)"
+		],
+		
+		"description": "do-while loop"
+	},
+
+	"INT ARRAY":{
+		"prefix": "intarr",
+		"body": "int myArray[] = {1, 2, 3, 4, 5};",
+
+		"description": "INT Array"
+	},
+
+	"FLOAT ARRAY":{
+		"prefix": "floarr",
+		"body": "float myArray[] = {1.5, 2.3, 3.5, 4.3, 5.5};",
+
+		"description": "FLOAT Array"
+	}
+
+
+}
